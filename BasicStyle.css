@@ -38,6 +38,7 @@ section {
     transition: transform 0.2s ease;
 }
 
+/* Efecto hover */
 section:hover {
     transform: translateY(-5px);
 }
@@ -48,9 +49,9 @@ h2 {
     color: #22c55e;
 }
 
-/* Texto */
 p {
     margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 /* Videos responsivos */
@@ -59,9 +60,10 @@ iframe {
     height: 315px;
     border-radius: 10px;
     border: none;
+    margin-top: 10px;
 }
 
-/* Responsive para celular */
+/* Responsive (celular) */
 @media (max-width: 600px) {
     h1 {
         font-size: 2rem;
