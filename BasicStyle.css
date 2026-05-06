@@ -14,13 +14,13 @@ body {
     padding: 20px;
 }
 
-/* Contenedor principal */
+/* Contenedor */
 main {
     max-width: 900px;
     margin: auto;
 }
 
-/* Título principal */
+/* Título */
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -34,13 +34,6 @@ section {
     padding: 20px;
     margin-bottom: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    transition: transform 0.2s ease;
-}
-
-/* Efecto hover */
-section:hover {
-    transform: translateY(-5px);
 }
 
 /* Subtítulos */
@@ -49,56 +42,26 @@ h2 {
     color: #22c55e;
 }
 
+/* Texto (CLAVE) */
 p {
     margin-bottom: 15px;
     line-height: 1.6;
+    width: 100%;
 }
 
-/* Videos responsivos */
+/* Videos */
 iframe {
     width: 100%;
     height: 315px;
     border-radius: 10px;
     border: none;
     margin-top: 10px;
+    display: block;
 }
 
-/* Responsive (celular) */
+/* Responsive */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-    }
-
     iframe {
         height: 200px;
     }
-}
-
-p {
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: unset !important;
-    display: block !important;
-}
-
-section {
-    height: auto !important;
-    overflow: visible !important;
-}
-
-main {
-    height: auto !important;
-    overflow: visible !important;
-} 
-
-section {
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-}
-
-main {
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
 }
