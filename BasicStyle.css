@@ -73,6 +73,7 @@ iframe {
         height: 200px;
     }
 }
+
 p {
     white-space: normal !important;
     overflow: visible !important;
@@ -87,5 +88,17 @@ section {
 
 main {
     height: auto !important;
+    overflow: visible !important;
+} 
+
+section {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+main {
+    height: auto !important;
+    max-height: none !important;
     overflow: visible !important;
 }
